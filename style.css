@@ -1,0 +1,86 @@
+body {
+    font-family: monospace;
+    font-size: 4vw;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+main {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+    background-color: #e0eeee;
+    border-bottom: 0.5vh solid black;
+}
+
+#battlefield, #starting {
+    padding-top: 20vh;
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#start_button {
+    font-size: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    font-family: monospace;
+    font-weight: 500;
+    background-color: #1188ff;
+    color: white;
+    border-radius: 1vw;
+    border: none;
+}
+
+#start_button:hover {
+    background-color: #0077ff;
+}
+
+.answer {
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-family: monospace;
+    font-weight: 500;
+    margin-right: 5vw;
+    background-color: #47b447;
+    color: white;
+    border-radius: 1vw;
+    border: none;
+    margin-bottom: 2vw;
+}
+
+.answer:hover {
+
+    background-color: #36a336;
+
+}
+
+#question {
+    margin-bottom: 3vh;
+    font-weight: 600;
+}
+
+#wynik {
+    text-align: center;
+}
